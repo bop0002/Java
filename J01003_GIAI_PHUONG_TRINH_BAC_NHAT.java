@@ -2,7 +2,7 @@ package oop;
 
 import java.util.Scanner;
 
-public class GIAI_PHUONG_TRINH_BAC_NHAT {
+public class J01003_GIAI_PHUONG_TRINH_BAC_NHAT {
 
     public static Scanner sc = new Scanner(System.in);
 

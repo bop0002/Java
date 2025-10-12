@@ -2,7 +2,7 @@ package oop;
 
 import java.util.Scanner;
 
-public class UOC_SO_NGUYEN_TO_LON_NHAT {
+public class J01014_UOC_SO_NGUYEN_TO_LON_NHAT {
 
     public static Scanner sc = new Scanner(System.in);
 

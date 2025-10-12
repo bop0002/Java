@@ -2,7 +2,7 @@ package oop;
 
 import java.util.Scanner;
 
-public class TINH_N_SO_NGUYEN_DUONG_DAU {
+public class J01002_TINH_N_SO_NGUYEN_DUONG_DAU {
 
     public static Scanner sc = new Scanner(System.in);
 

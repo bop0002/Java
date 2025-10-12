@@ -2,7 +2,7 @@ package oop;
 
 import java.util.Scanner;
 
-public class BCNN_UCLN {
+public class J01011_BSC_USC {
 
     public static Scanner sc = new Scanner(System.in);
     

@@ -3,7 +3,7 @@ package oop;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class TINH_SO_FIBO {
+public class J01006_TINH_SO_FIBO {
     
     public static Scanner sc = new Scanner(System.in);
     

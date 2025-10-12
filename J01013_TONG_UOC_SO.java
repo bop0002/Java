@@ -2,7 +2,7 @@ package oop;
 
 import java.util.Scanner;
 
-public class TONG_UOC_SO {
+public class J01013_TONG_UOC_SO {
 
     public static Scanner sc = new Scanner(System.in);
     static int a[] = new int[2000001];

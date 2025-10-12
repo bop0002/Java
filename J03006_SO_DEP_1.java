@@ -2,17 +2,19 @@ package oop;
 
 import java.util.Scanner;
 
-public class J01017_SO_LIEN_KE {
+public class J03006_SO_DEP_1 {
 
     public static Scanner sc = new Scanner(System.in);
 
-    public static boolean check(String s) {
-        int end = s.length();
-        for (int i = 1; i < end; i++) {
-            if(Math.abs((s.charAt(i)-'0')-(s.charAt(i-1)-'0'))!=1)
-            {
+    static boolean check(String s) {
+        int l = 0;
+        int r = s.length() - 1;
+        while (l < r) {
+            if ((s.charAt(l) != s.charAt(r)) || (s.charAt(l) - '0') % 2 != 0) {
                 return false;
             }
+            l++;
+            r--;
         }
         return true;
     }
@@ -23,11 +25,10 @@ public class J01017_SO_LIEN_KE {
             String s = sc.nextLine();
             if (check(s)) {
                 System.out.println("YES");
+            } else {
+                System.out.println("NO");
             }
-            else
-            {
-                System.out.println("NO"); 
-            }
+
         }
 
     }

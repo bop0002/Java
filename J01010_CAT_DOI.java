@@ -2,7 +2,7 @@ package oop;
 
 import java.util.Scanner;
 
-public class CAT_DOI {
+public class J01010_CAT_DOI {
 
     public static Scanner sc = new Scanner(System.in);
     

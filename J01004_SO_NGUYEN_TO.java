@@ -3,7 +3,7 @@ package oop;
 import static java.lang.Math.sqrt;
 import java.util.Scanner;
 
-public class SO_NGUYEN_TO {
+public class J01004_SO_NGUYEN_TO {
 
     public static Scanner sc = new Scanner(System.in);
 

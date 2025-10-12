@@ -1,7 +1,7 @@
 
 package OOP;
 
-public class HelloWorld {
+public class CHELLO_HelloWorld {
 
     
 

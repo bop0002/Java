@@ -1,9 +1,11 @@
+
+
 package oop;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class HINH_CHU_NHAT {
+public class J01001_HINH_CHU_NHAT {
     
     public static Scanner sc = new Scanner(System.in);
     

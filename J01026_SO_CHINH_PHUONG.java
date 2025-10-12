@@ -3,31 +3,19 @@ package oop;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class J01007_KIEM_TRA_SO_FIBO {
+public class J01026_SO_CHINH_PHUONG {
 
     public static Scanner sc = new Scanner(System.in);
     
-    public static boolean isFibo(long n)
+    public static boolean check(long n)
     {
-        if(n==0) return true;
-        long a = 0;
-        long b = 1;
-        while(b<n)
-        {
-            if(b==n)
-            {
-                return true;
-            }
-            long temp = b;
-            b = a + b;
-            a = temp;
-        }
-        return b == n;
+        long nSqrt = (long)Math.sqrt(n);
+        return n == nSqrt*nSqrt;
     }
     
     public static void testCase() {
         long n = sc.nextLong();
-        if(isFibo(n))
+        if(check(n))
         {
             System.out.println("YES");
         }
@@ -35,7 +23,6 @@ public class J01007_KIEM_TRA_SO_FIBO {
         {
             System.out.println("NO");
         }
-
     }
 
     public static void main(String[] args) {

@@ -2,7 +2,7 @@ package oop;
 
 import java.util.Scanner;
 
-public class SO_KO_LIEN_KE {
+public class J01018_SO_KO_LIEN_KE {
 
     public static Scanner sc = new Scanner(System.in);
     

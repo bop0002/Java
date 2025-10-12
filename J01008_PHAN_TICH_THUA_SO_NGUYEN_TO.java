@@ -2,7 +2,7 @@ package oop;
 
 import java.util.Scanner;
 
-public class PHAN_TICH_THUA_SO_NGUYEN_TO {
+public class J01008_PHAN_TICH_THUA_SO_NGUYEN_TO {
 
     public static Scanner sc = new Scanner(System.in);
     public static int count = 0;

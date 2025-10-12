@@ -2,7 +2,7 @@ package oop;
 
 import java.util.Scanner;
 
-public class CHU_SO_4_VA_7 {
+public class J01016_CHU_SO_4_VA_7 {
 
     public static Scanner sc = new Scanner(System.in);
 

@@ -1,12 +1,9 @@
-
 package oop;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
 
-public class HELLOFILE_HelloFile {
+
+
+public class TestJson {
 
 
     public static void main(String[] args) throws FileNotFoundException, IOException 

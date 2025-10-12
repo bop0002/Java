@@ -3,7 +3,7 @@ package oop;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class CHIA_TAM_GIAC {
+public class J01005_CHIA_TAM_GIAC {
 
     public static Scanner sc = new Scanner(System.in);
 

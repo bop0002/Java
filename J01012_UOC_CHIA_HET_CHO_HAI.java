@@ -2,7 +2,7 @@ package oop;
 
 import java.util.Scanner;
 
-public class UOC_CHIA_HET_CHO_HAI {
+public class J01012_UOC_CHIA_HET_CHO_HAI {
 
     public static Scanner sc = new Scanner(System.in);
     

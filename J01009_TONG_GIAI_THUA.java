@@ -3,7 +3,7 @@ package oop;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class TONG_GIAI_THUA {
+public class J01009_TONG_GIAI_THUA {
 
     public static Scanner sc = new Scanner(System.in);
 
